@@ -1,0 +1,13 @@
+.form {
+	padding: 40px 0px 0px 0px;
+}
+
+.form > * {
+	margin: 10px;
+}
+
+.input {
+	padding: 10px 15px;
+	font-size: 20px;
+	border: 0;
+}

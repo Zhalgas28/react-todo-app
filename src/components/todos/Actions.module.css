@@ -1,0 +1,12 @@
+.actions {
+	padding: 20px 0px 0px 0px;
+}
+
+.actions > * {
+	margin: 10px;
+}
+
+.reset, .delete {
+	height: 25px;
+	width: 25px;
+}

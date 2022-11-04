@@ -1,0 +1,60 @@
+.todo {
+	background-color: white;
+	color: black;
+	font-size: 20px;
+	padding: 10px 15px;
+	border: 2px solid gray;
+	border-radius: 5px;
+	width: 70%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+}
+
+.todoText {
+	font-size: 25px;
+	text-align: left;
+	word-break: break-all;
+	width: 100%;
+}
+
+.icon {
+	height: 25px;
+	margin: 4px 10px 0 0;
+	color: rgb(71, 109, 180);
+}
+
+.delete, .checkMark {
+	color: gray;
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+	transition: .3s;
+	margin: 5px;
+}
+
+.delete:hover {
+	color: red;
+}
+
+.checkMark {
+	height: 25px;
+	height: 25px;
+}
+
+.checkMark:hover {
+	color: rgb(18, 148, 18);
+}
+
+.completedTodo {
+	background-color: transparent;
+	color: white;
+}
+
+.completedTodo .icon {
+	color: white;
+}
+
+.completedTodo .checkMark {
+	color: rgb(18, 148, 18);
+}
